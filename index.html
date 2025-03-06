@@ -3,15 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
   </head>
   <body>
-    <h1>hello to my portfolio</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus optio
-      quidem aperiam et excepturi nemo, in ab expedita repellat exercitationem,
-      ipsum impedit molestiae! Minima soluta repellendus porro, tenetur velit
-      consequuntur?
-    </p>
+    <header>
+      <div class="logo">
+        <img src="./img/portfolio.png" alt="logo of website">
+        <h1>Imane</h1>
+      </div>
+      <nav >
+        <ul>
+          <li><a href="#" class="navItems">Home</a></li>
+          <li><a href="#" class="navItems">About me</a></li>
+          <li><a href="#" class="navItems">projects</a></li>
+          <li><a href="#" class="navItems" id="btn">contact</a></li>
+        </ul>
+      </nav>
+
+
+      <img src="./img/menu-burger.png" alt="click" class="mobileMenu" id="btntoggle">
+
+
+      <div class="mobileNav" id="mobileNav">
+        <ul>
+          <li><a href="#" class="navItems">Home</a></li>
+          <li><a href="#" class="navItems">About me</a></li>
+          <li><a href="#" class="navItems">projects</a></li>
+          <li><a href="#" class="navItems" id="btn">contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+
+
+    <script src="./js/toggle.js"></script>
   </body>
 </html>
